@@ -33,13 +33,6 @@ int ReadNumber(string Massage) {
     return Num;
 }
 
-int ReadChar(string Massage) {
-    char word = ' ';
-    cout << Massage;
-    cin >> word;
-    return word;
-}
-
 int RandomNumber(int From, int To) {
     int randNumber = rand() % (To - From + 1) + From;
     return randNumber;
